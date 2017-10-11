@@ -1,3 +1,0 @@
-/usr/sbin/fbset
-/bin/busybox.nosuid 50
-/usr/sbin/fbset.real 55

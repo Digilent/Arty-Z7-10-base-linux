@@ -1,8 +1,8 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2017.2.1 (lin64) Build 1957588 Wed Aug  9 16:32:10 MDT 2017
-// Date        : Tue Oct 10 18:10:24 2017
-// Host        : ubuntu running 64-bit unknown
+// Tool Version: Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
+// Date        : Wed Mar 28 00:12:14 2018
+// Host        : ubuntu running 64-bit Ubuntu 16.04.3 LTS
 // Command     : write_verilog -force -mode funcsim
 //               /home/digilent/work/git/Arty-Z7-10-base-linux/src/bd/Arty_Z7_10/ip/Arty_Z7_10_clk_wiz_0_0/Arty_Z7_10_clk_wiz_0_0_sim_netlist.v
 // Design      : Arty_Z7_10_clk_wiz_0_0
@@ -15,59 +15,46 @@
 (* NotValidForBitStream *)
 module Arty_Z7_10_clk_wiz_0_0
    (clk_out1,
-    clk_out2,
     resetn,
-    locked,
     clk_in1);
   output clk_out1;
-  output clk_out2;
   input resetn;
-  output locked;
   input clk_in1;
 
   (* IBUF_LOW_PWR *) wire clk_in1;
   wire clk_out1;
-  wire clk_out2;
-  wire locked;
   wire resetn;
 
   Arty_Z7_10_clk_wiz_0_0_Arty_Z7_10_clk_wiz_0_0_clk_wiz inst
        (.clk_in1(clk_in1),
         .clk_out1(clk_out1),
-        .clk_out2(clk_out2),
-        .locked(locked),
         .resetn(resetn));
 endmodule
 
 (* ORIG_REF_NAME = "Arty_Z7_10_clk_wiz_0_0_clk_wiz" *) 
 module Arty_Z7_10_clk_wiz_0_0_Arty_Z7_10_clk_wiz_0_0_clk_wiz
    (clk_out1,
-    clk_out2,
     resetn,
-    locked,
     clk_in1);
   output clk_out1;
-  output clk_out2;
   input resetn;
-  output locked;
   input clk_in1;
 
   wire clk_in1;
   wire clk_in1_Arty_Z7_10_clk_wiz_0_0;
   wire clk_out1;
   wire clk_out1_Arty_Z7_10_clk_wiz_0_0;
-  wire clk_out2;
-  wire clk_out2_Arty_Z7_10_clk_wiz_0_0;
   wire clkfbout_Arty_Z7_10_clk_wiz_0_0;
   wire clkfbout_buf_Arty_Z7_10_clk_wiz_0_0;
-  wire locked;
   wire reset_high;
   wire resetn;
+  wire NLW_plle2_adv_inst_CLKOUT1_UNCONNECTED;
   wire NLW_plle2_adv_inst_CLKOUT2_UNCONNECTED;
   wire NLW_plle2_adv_inst_CLKOUT3_UNCONNECTED;
   wire NLW_plle2_adv_inst_CLKOUT4_UNCONNECTED;
   wire NLW_plle2_adv_inst_CLKOUT5_UNCONNECTED;
   wire NLW_plle2_adv_inst_DRDY_UNCONNECTED;
+  wire NLW_plle2_adv_inst_LOCKED_UNCONNECTED;
   wire [15:0]NLW_plle2_adv_inst_DO_UNCONNECTED;
 
   (* BOX_TYPE = "PRIMITIVE" *) 
@@ -88,20 +75,16 @@ module Arty_Z7_10_clk_wiz_0_0_Arty_Z7_10_clk_wiz_0_0_clk_wiz
        (.I(clk_out1_Arty_Z7_10_clk_wiz_0_0),
         .O(clk_out1));
   (* BOX_TYPE = "PRIMITIVE" *) 
-  BUFG clkout2_buf
-       (.I(clk_out2_Arty_Z7_10_clk_wiz_0_0),
-        .O(clk_out2));
-  (* BOX_TYPE = "PRIMITIVE" *) 
   PLLE2_ADV #(
     .BANDWIDTH("OPTIMIZED"),
     .CLKFBOUT_MULT(8),
     .CLKFBOUT_PHASE(0.000000),
     .CLKIN1_PERIOD(8.000000),
     .CLKIN2_PERIOD(0.000000),
-    .CLKOUT0_DIVIDE(8),
+    .CLKOUT0_DIVIDE(5),
     .CLKOUT0_DUTY_CYCLE(0.500000),
     .CLKOUT0_PHASE(0.000000),
-    .CLKOUT1_DIVIDE(5),
+    .CLKOUT1_DIVIDE(1),
     .CLKOUT1_DUTY_CYCLE(0.500000),
     .CLKOUT1_PHASE(0.000000),
     .CLKOUT2_DIVIDE(1),
@@ -131,7 +114,7 @@ module Arty_Z7_10_clk_wiz_0_0_Arty_Z7_10_clk_wiz_0_0_clk_wiz
         .CLKIN2(1'b0),
         .CLKINSEL(1'b1),
         .CLKOUT0(clk_out1_Arty_Z7_10_clk_wiz_0_0),
-        .CLKOUT1(clk_out2_Arty_Z7_10_clk_wiz_0_0),
+        .CLKOUT1(NLW_plle2_adv_inst_CLKOUT1_UNCONNECTED),
         .CLKOUT2(NLW_plle2_adv_inst_CLKOUT2_UNCONNECTED),
         .CLKOUT3(NLW_plle2_adv_inst_CLKOUT3_UNCONNECTED),
         .CLKOUT4(NLW_plle2_adv_inst_CLKOUT4_UNCONNECTED),
@@ -143,7 +126,7 @@ module Arty_Z7_10_clk_wiz_0_0_Arty_Z7_10_clk_wiz_0_0_clk_wiz
         .DO(NLW_plle2_adv_inst_DO_UNCONNECTED[15:0]),
         .DRDY(NLW_plle2_adv_inst_DRDY_UNCONNECTED),
         .DWE(1'b0),
-        .LOCKED(locked),
+        .LOCKED(NLW_plle2_adv_inst_LOCKED_UNCONNECTED),
         .PWRDWN(1'b0),
         .RST(reset_high));
   LUT1 #(

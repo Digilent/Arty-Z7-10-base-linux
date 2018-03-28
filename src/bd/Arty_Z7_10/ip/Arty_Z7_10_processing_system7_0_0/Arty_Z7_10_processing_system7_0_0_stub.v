@@ -1,8 +1,8 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2017.2.1 (lin64) Build 1957588 Wed Aug  9 16:32:10 MDT 2017
-// Date        : Tue Oct 10 18:09:24 2017
-// Host        : ubuntu running 64-bit unknown
+// Tool Version: Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
+// Date        : Wed Mar 28 00:10:58 2018
+// Host        : ubuntu running 64-bit Ubuntu 16.04.3 LTS
 // Command     : write_verilog -force -mode synth_stub
 //               /home/digilent/work/git/Arty-Z7-10-base-linux/src/bd/Arty_Z7_10/ip/Arty_Z7_10_processing_system7_0_0/Arty_Z7_10_processing_system7_0_0_stub.v
 // Design      : Arty_Z7_10_processing_system7_0_0
@@ -13,7 +13,7 @@
 // This empty module with port declaration file causes synthesis tools to infer a black box for IP.
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
-(* X_CORE_INFO = "processing_system7_v5_5_processing_system7,Vivado 2017.2.1" *)
+(* X_CORE_INFO = "processing_system7_v5_5_processing_system7,Vivado 2017.4" *)
 module Arty_Z7_10_processing_system7_0_0(I2C0_SDA_I, I2C0_SDA_O, I2C0_SDA_T, I2C0_SCL_I, 
   I2C0_SCL_O, I2C0_SCL_T, I2C1_SDA_I, I2C1_SDA_O, I2C1_SDA_T, I2C1_SCL_I, I2C1_SCL_O, I2C1_SCL_T, 
   SPI0_SCLK_I, SPI0_SCLK_O, SPI0_SCLK_T, SPI0_MOSI_I, SPI0_MOSI_O, SPI0_MOSI_T, SPI0_MISO_I, 

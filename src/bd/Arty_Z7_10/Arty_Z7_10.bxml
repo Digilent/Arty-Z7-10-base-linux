@@ -2,9 +2,10 @@
 <Root MajorVersion="0" MinorVersion="33">
   <CompositeFile CompositeFileTopName="Arty_Z7_10" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1507684084"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1507684084"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1507684084"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1522220971"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1522220971"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1522220971"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1522220971"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip/Arty_Z7_10_PWM_0_0/Arty_Z7_10_PWM_0_0.xci" Type="IP">
         <Instance HierarchyPath="PWM_0"/>
@@ -120,30 +121,6 @@
       </File>
       <File Name="ip/Arty_Z7_10_proc_sys_reset_0_0/Arty_Z7_10_proc_sys_reset_0_0.xci" Type="IP">
         <Instance HierarchyPath="proc_sys_reset_0"/>
-        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
-        <Library Name="xil_defaultlib"/>
-        <UsedIn Val="SYNTHESIS"/>
-        <UsedIn Val="IMPLEMENTATION"/>
-        <UsedIn Val="SIMULATION"/>
-      </File>
-      <File Name="ip/Arty_Z7_10_proc_sys_reset_2_0/Arty_Z7_10_proc_sys_reset_2_0.xci" Type="IP">
-        <Instance HierarchyPath="proc_sys_reset_2"/>
-        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
-        <Library Name="xil_defaultlib"/>
-        <UsedIn Val="SYNTHESIS"/>
-        <UsedIn Val="IMPLEMENTATION"/>
-        <UsedIn Val="SIMULATION"/>
-      </File>
-      <File Name="ip/Arty_Z7_10_proc_sys_reset_3_0/Arty_Z7_10_proc_sys_reset_3_0.xci" Type="IP">
-        <Instance HierarchyPath="proc_sys_reset_3"/>
-        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
-        <Library Name="xil_defaultlib"/>
-        <UsedIn Val="SYNTHESIS"/>
-        <UsedIn Val="IMPLEMENTATION"/>
-        <UsedIn Val="SIMULATION"/>
-      </File>
-      <File Name="ip/Arty_Z7_10_proc_sys_reset_sysclk_0/Arty_Z7_10_proc_sys_reset_sysclk_0.xci" Type="IP">
-        <Instance HierarchyPath="proc_sys_reset_sysclk"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
@@ -270,6 +247,16 @@
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
+      <File Name="synth/Arty_Z7_10.vhd" Type="VHDL">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="sim/Arty_Z7_10.vhd" Type="VHDL">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
       <File Name="ip/Arty_Z7_10_auto_pc_1/Arty_Z7_10_auto_pc_1.xci" Type="IP">
         <Instance HierarchyPath="processing_system7_0_axi_periph/s00_couplers/auto_pc"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
@@ -310,12 +297,6 @@
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="hdl/Arty_Z7_10.vhd" Type="VHDL">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
-        <Library Name="xil_defaultlib"/>
-        <UsedIn Val="SYNTHESIS"/>
-        <UsedIn Val="SIMULATION"/>
-      </File>
       <File Name="Arty_Z7_10_ooc.xdc" Type="XDC">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
         <Library Name="xil_defaultlib"/>
@@ -333,7 +314,7 @@
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="HW_HANDOFF"/>
       </File>
-      <File Name="hdl/Arty_Z7_10.hwdef">
+      <File Name="synth/Arty_Z7_10.hwdef">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="HW_HANDOFF"/>

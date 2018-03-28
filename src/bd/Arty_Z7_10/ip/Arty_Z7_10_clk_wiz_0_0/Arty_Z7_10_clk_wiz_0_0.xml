@@ -149,6 +149,278 @@
           </spirit:physicalPort>
         </spirit:portMap>
       </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>DATA_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.DATA_WIDTH">32</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>PROTOCOL</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.PROTOCOL">AXI4</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>FREQ_HZ</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.FREQ_HZ">100000000</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ID_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.ID_WIDTH">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ADDR_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.ADDR_WIDTH">32</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>AWUSER_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.AWUSER_WIDTH">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ARUSER_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.ARUSER_WIDTH">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>WUSER_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.WUSER_WIDTH">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>RUSER_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.RUSER_WIDTH">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>BUSER_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.BUSER_WIDTH">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>READ_WRITE_MODE</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.READ_WRITE_MODE">READ_WRITE</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_BURST</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.HAS_BURST">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_LOCK</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.HAS_LOCK">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_PROT</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.HAS_PROT">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_CACHE</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.HAS_CACHE">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_QOS</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.HAS_QOS">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_REGION</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.HAS_REGION">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_WSTRB</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.HAS_WSTRB">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_BRESP</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.HAS_BRESP">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>HAS_RRESP</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.HAS_RRESP">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>SUPPORTS_NARROW_BURST</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.SUPPORTS_NARROW_BURST">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>NUM_READ_OUTSTANDING</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.NUM_READ_OUTSTANDING">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>NUM_WRITE_OUTSTANDING</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.NUM_WRITE_OUTSTANDING">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>MAX_BURST_LENGTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.MAX_BURST_LENGTH">256</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>PHASE</spirit:name>
+          <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.PHASE">0.000</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>CLK_DOMAIN</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.CLK_DOMAIN"/>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>NUM_READ_THREADS</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.NUM_READ_THREADS">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>NUM_WRITE_THREADS</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.NUM_WRITE_THREADS">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>RUSER_BITS_PER_BYTE</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.RUSER_BITS_PER_BYTE">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>WUSER_BITS_PER_BYTE</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_LITE.WUSER_BITS_PER_BYTE">0</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+      </spirit:parameters>
       <spirit:vendorExtensions>
         <xilinx:busInterfaceInfo>
           <xilinx:enablement>
@@ -182,6 +454,33 @@
           <spirit:name>ASSOCIATED_RESET</spirit:name>
           <spirit:value spirit:id="BUSIFPARAM_VALUE.S_AXI_ACLK.ASSOCIATED_RESET">aresetn</spirit:value>
         </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>FREQ_HZ</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_ACLK.FREQ_HZ">100000000</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>PHASE</spirit:name>
+          <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_ACLK.PHASE">0.000</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>CLK_DOMAIN</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_ACLK.CLK_DOMAIN"/>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
       </spirit:parameters>
       <spirit:vendorExtensions>
         <xilinx:busInterfaceInfo>
@@ -207,6 +506,53 @@
           </spirit:physicalPort>
         </spirit:portMap>
       </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>FREQ_HZ</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.REF_CLK.FREQ_HZ">100000000</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>PHASE</spirit:name>
+          <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.REF_CLK.PHASE">0.000</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>CLK_DOMAIN</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.REF_CLK.CLK_DOMAIN"/>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_BUSIF</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.REF_CLK.ASSOCIATED_BUSIF"/>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_RESET</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.REF_CLK.ASSOCIATED_RESET"/>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+      </spirit:parameters>
       <spirit:vendorExtensions>
         <xilinx:busInterfaceInfo>
           <xilinx:enablement>
@@ -265,6 +611,26 @@
           </spirit:physicalPort>
         </spirit:portMap>
       </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>SENSITIVITY</spirit:name>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.INTR.SENSITIVITY">LEVEL_HIGH</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>PortWidth</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.INTR.PortWidth">1</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+      </spirit:parameters>
       <spirit:vendorExtensions>
         <xilinx:busInterfaceInfo>
           <xilinx:enablement>
@@ -307,6 +673,24 @@
               <xilinx:enablement>
                 <xilinx:presence>required</xilinx:presence>
               </xilinx:enablement>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>CAN_DEBUG</spirit:name>
+          <spirit:value spirit:format="bool" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLK_IN1_D.CAN_DEBUG">false</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>FREQ_HZ</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLK_IN1_D.FREQ_HZ">100000000</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
             </xilinx:parameterInfo>
           </spirit:vendorExtensions>
         </spirit:parameter>
@@ -356,6 +740,24 @@
             </xilinx:parameterInfo>
           </spirit:vendorExtensions>
         </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>CAN_DEBUG</spirit:name>
+          <spirit:value spirit:format="bool" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLK_IN2_D.CAN_DEBUG">false</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>FREQ_HZ</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLK_IN2_D.FREQ_HZ">100000000</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
       </spirit:parameters>
       <spirit:vendorExtensions>
         <xilinx:busInterfaceInfo>
@@ -390,10 +792,30 @@
           </spirit:physicalPort>
         </spirit:portMap>
       </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>CAN_DEBUG</spirit:name>
+          <spirit:value spirit:format="bool" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLKFB_IN_D.CAN_DEBUG">false</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>FREQ_HZ</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLKFB_IN_D.FREQ_HZ">100000000</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+      </spirit:parameters>
       <spirit:vendorExtensions>
         <xilinx:busInterfaceInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="BUSIF_ENABLEMENT.CLKFB_IN_D" xilinx:dependency="((((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))!=&quot;FDBK_AUTO&quot;) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_CLKFB_IN_SIGNALING&apos;))=&quot;DIFF&quot;)))">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="BUSIF_ENABLEMENT.CLKFB_IN_D" xilinx:dependency="((((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))!=&quot;FDBK_AUTO&quot;) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;)) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_MMCM_COMPENSATION&apos;))!=&quot;INTERNAL&quot;))) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_CLKFB_IN_SIGNALING&apos;))=&quot;DIFF&quot;) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_MMCM_COMPENSATION&apos;))!=&quot;INTERNAL&quot;))))">false</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:busInterfaceInfo>
       </spirit:vendorExtensions>
@@ -423,10 +845,30 @@
           </spirit:physicalPort>
         </spirit:portMap>
       </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>CAN_DEBUG</spirit:name>
+          <spirit:value spirit:format="bool" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLKFB_OUT_D.CAN_DEBUG">false</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>FREQ_HZ</spirit:name>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLKFB_OUT_D.FREQ_HZ">100000000</spirit:value>
+          <spirit:vendorExtensions>
+            <xilinx:parameterInfo>
+              <xilinx:parameterUsage>none</xilinx:parameterUsage>
+            </xilinx:parameterInfo>
+          </spirit:vendorExtensions>
+        </spirit:parameter>
+      </spirit:parameters>
       <spirit:vendorExtensions>
         <xilinx:busInterfaceInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="BUSIF_ENABLEMENT.CLKFB_OUT_D" xilinx:dependency="((((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))!=&quot;FDBK_AUTO&quot;) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_CLKFB_IN_SIGNALING&apos;))=&quot;DIFF&quot;)))">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="BUSIF_ENABLEMENT.CLKFB_OUT_D" xilinx:dependency="((((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))!=&quot;FDBK_AUTO&quot;) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;)) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_MMCM_COMPENSATION&apos;))!=&quot;INTERNAL&quot;))) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_CLKFB_IN_SIGNALING&apos;))=&quot;DIFF&quot;) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_MMCM_COMPENSATION&apos;))!=&quot;INTERNAL&quot;))))">false</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:busInterfaceInfo>
       </spirit:vendorExtensions>
@@ -516,12 +958,8 @@
       </spirit:portMaps>
       <spirit:parameters>
         <spirit:parameter>
-          <spirit:name>BOARD.ASSOCIATED_PARAM</spirit:name>
-          <spirit:value spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_IN1.BOARD.ASSOCIATED_PARAM">CLK_IN1_BOARD_INTERFACE</spirit:value>
-        </spirit:parameter>
-        <spirit:parameter>
           <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_IN1.FREQ_HZ">125000000</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_IN1.FREQ_HZ">125000000</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -530,7 +968,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>PHASE</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_IN1.PHASE">0.000</spirit:value>
+          <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_IN1.PHASE">0.000</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -564,6 +1002,10 @@
             </xilinx:parameterInfo>
           </spirit:vendorExtensions>
         </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>BOARD.ASSOCIATED_PARAM</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_IN1.BOARD.ASSOCIATED_PARAM">CLK_IN1_BOARD_INTERFACE</spirit:value>
+        </spirit:parameter>
       </spirit:parameters>
     </spirit:busInterface>
     <spirit:busInterface>
@@ -584,7 +1026,7 @@
       <spirit:parameters>
         <spirit:parameter>
           <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_OUT1.FREQ_HZ">125000000</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_OUT1.FREQ_HZ">200000000</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -593,7 +1035,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>PHASE</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_OUT1.PHASE">0.0</spirit:value>
+          <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_OUT1.PHASE">0.0</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -629,69 +1071,6 @@
         </spirit:parameter>
       </spirit:parameters>
     </spirit:busInterface>
-    <spirit:busInterface>
-      <spirit:name>clock_CLK_OUT2</spirit:name>
-      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock" spirit:version="1.0"/>
-      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock_rtl" spirit:version="1.0"/>
-      <spirit:master/>
-      <spirit:portMaps>
-        <spirit:portMap>
-          <spirit:logicalPort>
-            <spirit:name>CLK_OUT2</spirit:name>
-          </spirit:logicalPort>
-          <spirit:physicalPort>
-            <spirit:name>clk_out2</spirit:name>
-          </spirit:physicalPort>
-        </spirit:portMap>
-      </spirit:portMaps>
-      <spirit:parameters>
-        <spirit:parameter>
-          <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_OUT2.FREQ_HZ">200000000</spirit:value>
-          <spirit:vendorExtensions>
-            <xilinx:parameterInfo>
-              <xilinx:parameterUsage>none</xilinx:parameterUsage>
-            </xilinx:parameterInfo>
-          </spirit:vendorExtensions>
-        </spirit:parameter>
-        <spirit:parameter>
-          <spirit:name>PHASE</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_OUT2.PHASE">0.0</spirit:value>
-          <spirit:vendorExtensions>
-            <xilinx:parameterInfo>
-              <xilinx:parameterUsage>none</xilinx:parameterUsage>
-            </xilinx:parameterInfo>
-          </spirit:vendorExtensions>
-        </spirit:parameter>
-        <spirit:parameter>
-          <spirit:name>CLK_DOMAIN</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_OUT2.CLK_DOMAIN">/clk_wiz_0_clk_out1</spirit:value>
-          <spirit:vendorExtensions>
-            <xilinx:parameterInfo>
-              <xilinx:parameterUsage>none</xilinx:parameterUsage>
-            </xilinx:parameterInfo>
-          </spirit:vendorExtensions>
-        </spirit:parameter>
-        <spirit:parameter>
-          <spirit:name>ASSOCIATED_BUSIF</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_OUT2.ASSOCIATED_BUSIF"/>
-          <spirit:vendorExtensions>
-            <xilinx:parameterInfo>
-              <xilinx:parameterUsage>none</xilinx:parameterUsage>
-            </xilinx:parameterInfo>
-          </spirit:vendorExtensions>
-        </spirit:parameter>
-        <spirit:parameter>
-          <spirit:name>ASSOCIATED_RESET</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CLOCK_CLK_OUT2.ASSOCIATED_RESET"/>
-          <spirit:vendorExtensions>
-            <xilinx:parameterInfo>
-              <xilinx:parameterUsage>none</xilinx:parameterUsage>
-            </xilinx:parameterInfo>
-          </spirit:vendorExtensions>
-        </spirit:parameter>
-      </spirit:parameters>
-    </spirit:busInterface>
   </spirit:busInterfaces>
   <spirit:model>
     <spirit:views>
@@ -702,7 +1081,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:d0ef60c6</spirit:value>
+            <spirit:value>7:5cc3186a</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -716,11 +1095,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Oct 11 01:07:51 UTC 2017</spirit:value>
+            <spirit:value>Wed Mar 28 07:08:27 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:3af4556c</spirit:value>
+            <spirit:value>7:942f79b5</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -734,11 +1113,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Oct 11 01:07:51 UTC 2017</spirit:value>
+            <spirit:value>Wed Mar 28 07:08:27 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:3af4556c</spirit:value>
+            <spirit:value>7:942f79b5</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -752,11 +1131,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Oct 11 01:07:51 UTC 2017</spirit:value>
+            <spirit:value>Wed Mar 28 07:08:27 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:6e2feeb0</spirit:value>
+            <spirit:value>7:cff08304</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -770,11 +1149,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Oct 11 01:07:51 UTC 2017</spirit:value>
+            <spirit:value>Wed Mar 28 07:08:27 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:6e2feeb0</spirit:value>
+            <spirit:value>7:cff08304</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -788,11 +1167,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Oct 11 01:07:52 UTC 2017</spirit:value>
+            <spirit:value>Wed Mar 28 07:08:27 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:3af4556c</spirit:value>
+            <spirit:value>7:942f79b5</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -806,11 +1185,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Oct 11 01:10:24 UTC 2017</spirit:value>
+            <spirit:value>Wed Mar 28 07:12:14 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:3af4556c</spirit:value>
+            <spirit:value>7:942f79b5</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1367,7 +1746,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.clkfb_in_p" xilinx:dependency="((((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))!=&quot;FDBK_AUTO&quot;) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_CLKFB_IN_SIGNALING&apos;))=&quot;DIFF&quot;)))">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.clkfb_in_p" xilinx:dependency="((((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))!=&quot;FDBK_AUTO&quot;) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;)) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_MMCM_COMPENSATION&apos;))!=&quot;INTERNAL&quot;))) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_CLKFB_IN_SIGNALING&apos;))=&quot;DIFF&quot;) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_MMCM_COMPENSATION&apos;))!=&quot;INTERNAL&quot;))))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1390,7 +1769,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.clkfb_in_n" xilinx:dependency="((((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))!=&quot;FDBK_AUTO&quot;) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_CLKFB_IN_SIGNALING&apos;))=&quot;DIFF&quot;)))">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.clkfb_in_n" xilinx:dependency="((((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))!=&quot;FDBK_AUTO&quot;) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;)) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_MMCM_COMPENSATION&apos;))!=&quot;INTERNAL&quot;))) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_CLKFB_IN_SIGNALING&apos;))=&quot;DIFF&quot;) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_MMCM_COMPENSATION&apos;))!=&quot;INTERNAL&quot;))))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1410,7 +1789,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.clkfb_out_p" xilinx:dependency="((((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))!=&quot;FDBK_AUTO&quot;) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_CLKFB_IN_SIGNALING&apos;))=&quot;DIFF&quot;)))">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.clkfb_out_p" xilinx:dependency="((((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))!=&quot;FDBK_AUTO&quot;) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;)) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_MMCM_COMPENSATION&apos;))!=&quot;INTERNAL&quot;))) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_CLKFB_IN_SIGNALING&apos;))=&quot;DIFF&quot;) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_MMCM_COMPENSATION&apos;))!=&quot;INTERNAL&quot;))))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1430,7 +1809,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.clkfb_out_n" xilinx:dependency="((((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))!=&quot;FDBK_AUTO&quot;) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_CLKFB_IN_SIGNALING&apos;))=&quot;DIFF&quot;)))">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.clkfb_out_n" xilinx:dependency="((((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))!=&quot;FDBK_AUTO&quot;) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;))) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;)) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_MMCM_COMPENSATION&apos;))!=&quot;INTERNAL&quot;))) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_PHASE_ALIGNMENT&apos;))=1) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_FEEDBACK_SOURCE&apos;))=&quot;FDBK_AUTO_OFFCHIP&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_CLKFB_IN_SIGNALING&apos;))=&quot;DIFF&quot;) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_MMCM_COMPENSATION&apos;))!=&quot;INTERNAL&quot;))))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1726,37 +2105,11 @@
           </spirit:wireTypeDefs>
         </spirit:wire>
       </spirit:port>
-      <spirit:port>
-        <spirit:name>clk_out2</spirit:name>
-        <spirit:wire>
-          <spirit:direction>out</spirit:direction>
-          <spirit:wireTypeDefs>
-            <spirit:wireTypeDef>
-              <spirit:typeName>std_logic</spirit:typeName>
-              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
-              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
-            </spirit:wireTypeDef>
-          </spirit:wireTypeDefs>
-        </spirit:wire>
-      </spirit:port>
-      <spirit:port>
-        <spirit:name>locked</spirit:name>
-        <spirit:wire>
-          <spirit:direction>out</spirit:direction>
-          <spirit:wireTypeDefs>
-            <spirit:wireTypeDef>
-              <spirit:typeName>std_logic</spirit:typeName>
-              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
-              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
-            </spirit:wireTypeDef>
-          </spirit:wireTypeDefs>
-        </spirit:wire>
-      </spirit:port>
     </spirit:ports>
     <spirit:modelParameters>
       <spirit:modelParameter xsi:type="spirit:nameValueTypeType" spirit:dataType="INTEGER">
         <spirit:name>C_CLKOUT2_USED</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLKOUT2_USED" spirit:order="194">1</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLKOUT2_USED" spirit:order="194">0</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_USER_CLK_FREQ0</spirit:name>
@@ -1968,7 +2321,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_USE_LOCKED</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_USE_LOCKED" spirit:order="228">1</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_USE_LOCKED" spirit:order="228">0</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_USE_INCLK_STOPPED</spirit:name>
@@ -1992,7 +2345,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_NUM_OUT_CLKS</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_NUM_OUT_CLKS" spirit:order="234">2</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_NUM_OUT_CLKS" spirit:order="234">1</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_CLKOUT1_DRIVES</spirit:name>
@@ -2045,11 +2398,11 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_OUTCLK_SUM_ROW1</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_OUTCLK_SUM_ROW1" spirit:order="247">clk_out1___125.000______0.000______50.0______119.348_____96.948</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_OUTCLK_SUM_ROW1" spirit:order="247">clk_out1___200.000______0.000______50.0______109.241_____96.948</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_OUTCLK_SUM_ROW2</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_OUTCLK_SUM_ROW2" spirit:order="248">clk_out2___200.000______0.000______50.0______109.241_____96.948</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_OUTCLK_SUM_ROW2" spirit:order="248">no_CLK_OUT2_output</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_OUTCLK_SUM_ROW3</spirit:name>
@@ -2073,7 +2426,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_CLKOUT1_REQUESTED_OUT_FREQ</spirit:name>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLKOUT1_REQUESTED_OUT_FREQ" spirit:order="254">125</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLKOUT1_REQUESTED_OUT_FREQ" spirit:order="254">200</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_CLKOUT2_REQUESTED_OUT_FREQ</spirit:name>
@@ -2157,7 +2510,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_CLKOUT1_OUT_FREQ</spirit:name>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLKOUT1_OUT_FREQ" spirit:order="275">125.000</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLKOUT1_OUT_FREQ" spirit:order="275">200.000</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_CLKOUT2_OUT_FREQ</spirit:name>
@@ -2325,11 +2678,11 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_MMCM_CLKOUT0_DIVIDE_F</spirit:name>
-        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_MMCM_CLKOUT0_DIVIDE_F" spirit:order="308">8.000</spirit:value>
+        <spirit:value spirit:format="float" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_MMCM_CLKOUT0_DIVIDE_F" spirit:order="308">5.000</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_MMCM_CLKOUT1_DIVIDE</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_MMCM_CLKOUT1_DIVIDE" spirit:order="309">5</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_MMCM_CLKOUT1_DIVIDE" spirit:order="309">1</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_MMCM_CLKOUT2_DIVIDE</spirit:name>
@@ -2855,27 +3208,27 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_DIVIDE2_AUTO</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DIVIDE2_AUTO" spirit:order="411">0.625</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DIVIDE2_AUTO" spirit:order="411">1.0</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_DIVIDE3_AUTO</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DIVIDE3_AUTO" spirit:order="411">1.25</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DIVIDE3_AUTO" spirit:order="411">2.0</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_DIVIDE4_AUTO</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DIVIDE4_AUTO" spirit:order="411">1.25</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DIVIDE4_AUTO" spirit:order="411">2.0</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_DIVIDE5_AUTO</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DIVIDE5_AUTO" spirit:order="411">1.25</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DIVIDE5_AUTO" spirit:order="411">2.0</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_DIVIDE6_AUTO</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DIVIDE6_AUTO" spirit:order="411">1.25</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DIVIDE6_AUTO" spirit:order="411">2.0</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_DIVIDE7_AUTO</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DIVIDE7_AUTO" spirit:order="411">1.25</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DIVIDE7_AUTO" spirit:order="411">2.0</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_PLLBUFGCEDIV</spirit:name>
@@ -2959,7 +3312,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_CLKOUT0_ACTUAL_FREQ</spirit:name>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLKOUT0_ACTUAL_FREQ" spirit:order="711">125.000</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLKOUT0_ACTUAL_FREQ" spirit:order="711">200.000</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_CLKOUT1_ACTUAL_FREQ</spirit:name>
@@ -3043,15 +3396,6 @@
       <spirit:enumeration spirit:text="Automatic Control Off-Chip">FDBK_AUTO_OFFCHIP</spirit:enumeration>
       <spirit:enumeration spirit:text="User-Controlled On-Chip">FDBK_ONCHIP</spirit:enumeration>
       <spirit:enumeration spirit:text="User-Controlled Off-Chip">FDBK_OFFCHIP</spirit:enumeration>
-    </spirit:choice>
-    <spirit:choice>
-      <spirit:name>choice_pairs_30cf7dfc</spirit:name>
-      <spirit:enumeration spirit:text="Single ended clock capable pin">Single_ended_clock_capable_pin</spirit:enumeration>
-      <spirit:enumeration spirit:text="Differential clock capable pin">Differential_clock_capable_pin</spirit:enumeration>
-      <spirit:enumeration spirit:text="Single ended non clock pin">Single_ended_non_clock_pin</spirit:enumeration>
-      <spirit:enumeration spirit:text="Differential non clock pin">Differential_non_clock_pin</spirit:enumeration>
-      <spirit:enumeration spirit:text="Global buffer">Global_buffer</spirit:enumeration>
-      <spirit:enumeration spirit:text="No buffer">No_buffer</spirit:enumeration>
     </spirit:choice>
     <spirit:choice>
       <spirit:name>choice_pairs_3c2d3ec7</spirit:name>
@@ -3147,40 +3491,40 @@
         <spirit:userFileType>USED_IN_synthesis</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/9c7f/mmcm_pll_drp_func_7s_mmcm.vh</spirit:name>
+        <spirit:name>../../ipshared/4868/mmcm_pll_drp_func_7s_mmcm.vh</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
-        <spirit:logicalName>clk_wiz_v5_4_1</spirit:logicalName>
+        <spirit:logicalName>clk_wiz_v5_4_3</spirit:logicalName>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/9c7f/mmcm_pll_drp_func_7s_pll.vh</spirit:name>
+        <spirit:name>../../ipshared/4868/mmcm_pll_drp_func_7s_pll.vh</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
-        <spirit:logicalName>clk_wiz_v5_4_1</spirit:logicalName>
+        <spirit:logicalName>clk_wiz_v5_4_3</spirit:logicalName>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/9c7f/mmcm_pll_drp_func_us_mmcm.vh</spirit:name>
+        <spirit:name>../../ipshared/4868/mmcm_pll_drp_func_us_mmcm.vh</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
-        <spirit:logicalName>clk_wiz_v5_4_1</spirit:logicalName>
+        <spirit:logicalName>clk_wiz_v5_4_3</spirit:logicalName>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/9c7f/mmcm_pll_drp_func_us_pll.vh</spirit:name>
+        <spirit:name>../../ipshared/4868/mmcm_pll_drp_func_us_pll.vh</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
-        <spirit:logicalName>clk_wiz_v5_4_1</spirit:logicalName>
+        <spirit:logicalName>clk_wiz_v5_4_3</spirit:logicalName>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/9c7f/mmcm_pll_drp_func_us_plus_pll.vh</spirit:name>
+        <spirit:name>../../ipshared/4868/mmcm_pll_drp_func_us_plus_pll.vh</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
-        <spirit:logicalName>clk_wiz_v5_4_1</spirit:logicalName>
+        <spirit:logicalName>clk_wiz_v5_4_3</spirit:logicalName>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/9c7f/mmcm_pll_drp_func_us_plus_mmcm.vh</spirit:name>
+        <spirit:name>../../ipshared/4868/mmcm_pll_drp_func_us_plus_mmcm.vh</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
-        <spirit:logicalName>clk_wiz_v5_4_1</spirit:logicalName>
+        <spirit:logicalName>clk_wiz_v5_4_3</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>Arty_Z7_10_clk_wiz_0_0_clk_wiz.v</spirit:name>
@@ -3197,46 +3541,46 @@
     <spirit:fileSet>
       <spirit:name>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>../../ipshared/9c7f/mmcm_pll_drp_func_7s_mmcm.vh</spirit:name>
+        <spirit:name>../../ipshared/4868/mmcm_pll_drp_func_7s_mmcm.vh</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
-        <spirit:logicalName>clk_wiz_v5_4_1</spirit:logicalName>
+        <spirit:logicalName>clk_wiz_v5_4_3</spirit:logicalName>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/9c7f/mmcm_pll_drp_func_7s_pll.vh</spirit:name>
+        <spirit:name>../../ipshared/4868/mmcm_pll_drp_func_7s_pll.vh</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
-        <spirit:logicalName>clk_wiz_v5_4_1</spirit:logicalName>
+        <spirit:logicalName>clk_wiz_v5_4_3</spirit:logicalName>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/9c7f/mmcm_pll_drp_func_us_mmcm.vh</spirit:name>
+        <spirit:name>../../ipshared/4868/mmcm_pll_drp_func_us_mmcm.vh</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
-        <spirit:logicalName>clk_wiz_v5_4_1</spirit:logicalName>
+        <spirit:logicalName>clk_wiz_v5_4_3</spirit:logicalName>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/9c7f/mmcm_pll_drp_func_us_pll.vh</spirit:name>
+        <spirit:name>../../ipshared/4868/mmcm_pll_drp_func_us_pll.vh</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
-        <spirit:logicalName>clk_wiz_v5_4_1</spirit:logicalName>
+        <spirit:logicalName>clk_wiz_v5_4_3</spirit:logicalName>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/9c7f/mmcm_pll_drp_func_us_plus_pll.vh</spirit:name>
+        <spirit:name>../../ipshared/4868/mmcm_pll_drp_func_us_plus_pll.vh</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
-        <spirit:logicalName>clk_wiz_v5_4_1</spirit:logicalName>
+        <spirit:logicalName>clk_wiz_v5_4_3</spirit:logicalName>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/9c7f/mmcm_pll_drp_func_us_plus_mmcm.vh</spirit:name>
+        <spirit:name>../../ipshared/4868/mmcm_pll_drp_func_us_plus_mmcm.vh</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
-        <spirit:logicalName>clk_wiz_v5_4_1</spirit:logicalName>
+        <spirit:logicalName>clk_wiz_v5_4_3</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>Arty_Z7_10_clk_wiz_0_0_clk_wiz.v</spirit:name>
@@ -3489,7 +3833,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>CLKOUT2_USED</spirit:name>
-      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.CLKOUT2_USED" spirit:order="29" spirit:configGroups="0 NoDisplay">true</spirit:value>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.CLKOUT2_USED" spirit:order="29" spirit:configGroups="0 NoDisplay">false</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>CLKOUT3_USED</spirit:name>
@@ -3513,7 +3857,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>NUM_OUT_CLKS</spirit:name>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.NUM_OUT_CLKS" spirit:order="407" spirit:configGroups="0 NoDisplay" spirit:minimum="1" spirit:maximum="7" spirit:rangeType="long">2</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.NUM_OUT_CLKS" spirit:order="407" spirit:configGroups="0 NoDisplay" spirit:minimum="1" spirit:maximum="7" spirit:rangeType="long">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>CLK_OUT1_USE_FINE_PS_GUI</spirit:name>
@@ -3621,7 +3965,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>CLKOUT1_REQUESTED_OUT_FREQ</spirit:name>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.CLKOUT1_REQUESTED_OUT_FREQ" spirit:order="62" spirit:configGroups="0 NoDisplay">125</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.CLKOUT1_REQUESTED_OUT_FREQ" spirit:order="62" spirit:configGroups="0 NoDisplay">200</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>CLKOUT1_REQUESTED_PHASE</spirit:name>
@@ -3741,7 +4085,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>PRIM_SOURCE</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.PRIM_SOURCE" spirit:choiceRef="choice_pairs_30cf7dfc" spirit:order="14.1" spirit:configGroups="0 NoDisplay">Single_ended_clock_capable_pin</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.PRIM_SOURCE" spirit:choiceRef="choice_pairs_11d71346" spirit:order="14.1" spirit:configGroups="0 NoDisplay">Single_ended_clock_capable_pin</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>CLKOUT1_DRIVES</spirit:name>
@@ -3813,7 +4157,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>USE_LOCKED</spirit:name>
-      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.USE_LOCKED" spirit:order="103" spirit:configGroups="0 NoDisplay">true</spirit:value>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.USE_LOCKED" spirit:order="103" spirit:configGroups="0 NoDisplay">false</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>CALC_DONE</spirit:name>
@@ -3953,7 +4297,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>MMCM_CLKOUT0_DIVIDE_F</spirit:name>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.MMCM_CLKOUT0_DIVIDE_F" spirit:order="137" spirit:configGroups="0 NoDisplay">8</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.MMCM_CLKOUT0_DIVIDE_F" spirit:order="137" spirit:configGroups="0 NoDisplay">5</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>MMCM_CLKOUT0_DUTY_CYCLE</spirit:name>
@@ -3969,7 +4313,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>MMCM_CLKOUT1_DIVIDE</spirit:name>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MMCM_CLKOUT1_DIVIDE" spirit:order="141" spirit:configGroups="0 NoDisplay" spirit:minimum="1" spirit:maximum="128" spirit:rangeType="long">5</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MMCM_CLKOUT1_DIVIDE" spirit:order="141" spirit:configGroups="0 NoDisplay" spirit:minimum="1" spirit:maximum="128" spirit:rangeType="long">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>MMCM_CLKOUT1_DUTY_CYCLE</spirit:name>
@@ -4268,7 +4612,7 @@
     <spirit:parameter>
       <spirit:name>CLKOUT1_JITTER</spirit:name>
       <spirit:displayName>Clkout1 Jitter</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.CLKOUT1_JITTER" spirit:order="1000">119.348</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.CLKOUT1_JITTER" spirit:order="1000">109.241</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>CLKOUT1_PHASE_ERROR</spirit:name>
@@ -4357,17 +4701,19 @@
   <spirit:vendorExtensions>
     <xilinx:coreExtensions>
       <xilinx:displayName>Clocking Wizard</xilinx:displayName>
-      <xilinx:coreRevision>1</xilinx:coreRevision>
+      <xilinx:xpmLibraries>
+        <xilinx:xpmLibrary>XPM_CDC</xilinx:xpmLibrary>
+      </xilinx:xpmLibraries>
+      <xilinx:coreRevision>3</xilinx:coreRevision>
       <xilinx:configElementInfos>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_IN1.CLK_DOMAIN" xilinx:valueSource="default_prop"/>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_IN1.FREQ_HZ" xilinx:valueSource="user_prop"/>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_IN1.PHASE" xilinx:valueSource="user_prop"/>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_OUT1.CLK_DOMAIN" xilinx:valueSource="propagated"/>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_OUT1.FREQ_HZ" xilinx:valueSource="propagated"/>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_OUT1.PHASE" xilinx:valueSource="propagated"/>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_OUT2.CLK_DOMAIN" xilinx:valueSource="propagated"/>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_OUT2.FREQ_HZ" xilinx:valueSource="propagated"/>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_OUT2.PHASE" xilinx:valueSource="propagated"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_IN1.CLK_DOMAIN" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_IN1.FREQ_HZ" xilinx:valueSource="user_prop" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_IN1.PHASE" xilinx:valueSource="user_prop" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_OUT1.ASSOCIATED_BUSIF" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_OUT1.ASSOCIATED_RESET" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_OUT1.CLK_DOMAIN" xilinx:valueSource="propagated" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_OUT1.FREQ_HZ" xilinx:valueSource="propagated" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLOCK_CLK_OUT1.PHASE" xilinx:valueSource="propagated" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CLKIN1_JITTER_PS" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CLKOUT1_DRIVES" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CLKOUT1_JITTER" xilinx:valueSource="user"/>
@@ -4397,16 +4743,17 @@
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.RESET_PORT" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.RESET_TYPE" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.USE_BOARD_FLOW" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.USE_LOCKED" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.USE_RESET" xilinx:valueSource="user"/>
       </xilinx:configElementInfos>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
-      <xilinx:xilinxVersion>2017.2.1</xilinx:xilinxVersion>
-      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="1947af4e"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="d94d03b6"/>
-      <xilinx:checksum xilinx:scope="ports" xilinx:value="0ab5ce63"/>
-      <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="f91929a0"/>
-      <xilinx:checksum xilinx:scope="parameters" xilinx:value="a403bc90"/>
+      <xilinx:xilinxVersion>2017.4</xilinx:xilinxVersion>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="47eccc34"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="0eced063"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="4f3d3737"/>
+      <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="0f2f17dd"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="488ef609"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>

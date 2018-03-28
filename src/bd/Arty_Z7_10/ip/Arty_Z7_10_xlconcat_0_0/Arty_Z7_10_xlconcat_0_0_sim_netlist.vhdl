@@ -1,8 +1,8 @@
 -- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2017.2.1 (lin64) Build 1957588 Wed Aug  9 16:32:10 MDT 2017
--- Date        : Tue Oct 10 18:10:21 2017
--- Host        : ubuntu running 64-bit unknown
+-- Tool Version: Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
+-- Date        : Wed Mar 28 00:12:09 2018
+-- Host        : ubuntu running 64-bit Ubuntu 16.04.3 LTS
 -- Command     : write_vhdl -force -mode funcsim
 --               /home/digilent/work/git/Arty-Z7-10-base-linux/src/bd/Arty_Z7_10/ip/Arty_Z7_10_xlconcat_0_0/Arty_Z7_10_xlconcat_0_0_sim_netlist.vhdl
 -- Design      : Arty_Z7_10_xlconcat_0_0
@@ -33,7 +33,7 @@ entity Arty_Z7_10_xlconcat_0_0 is
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of Arty_Z7_10_xlconcat_0_0 : entity is "yes";
   attribute X_CORE_INFO : string;
-  attribute X_CORE_INFO of Arty_Z7_10_xlconcat_0_0 : entity is "xlconcat_v2_1_1_xlconcat,Vivado 2017.2.1";
+  attribute X_CORE_INFO of Arty_Z7_10_xlconcat_0_0 : entity is "xlconcat_v2_1_1_xlconcat,Vivado 2017.4";
 end Arty_Z7_10_xlconcat_0_0;
 
 architecture STRUCTURE of Arty_Z7_10_xlconcat_0_0 is

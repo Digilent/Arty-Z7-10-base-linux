@@ -56,8 +56,7 @@
 //  Output     Output      Phase    Duty Cycle   Pk-to-Pk     Phase
 //   Clock     Freq (MHz)  (degrees)    (%)     Jitter (ps)  Error (ps)
 //----------------------------------------------------------------------------
-// clk_out1___125.000______0.000______50.0______119.348_____96.948
-// clk_out2___200.000______0.000______50.0______109.241_____96.948
+// clk_out1___200.000______0.000______50.0______109.241_____96.948
 //
 //----------------------------------------------------------------------------
 // Input Clock   Freq (MHz)    Input Jitter (UI)
@@ -71,10 +70,8 @@ module Arty_Z7_10_clk_wiz_0_0_clk_wiz
  (// Clock in ports
   // Clock out ports
   output        clk_out1,
-  output        clk_out2,
   // Status and control signals
   input         resetn,
-  output        locked,
   input         clk_in1
  );
   // Input buffering
@@ -84,6 +81,8 @@ wire clk_in2_Arty_Z7_10_clk_wiz_0_0;
   IBUF clkin1_ibufg
    (.O (clk_in1_Arty_Z7_10_clk_wiz_0_0),
     .I (clk_in1));
+
+
 
 
   // Clocking PRIMITIVE
@@ -108,6 +107,7 @@ wire clk_in2_Arty_Z7_10_clk_wiz_0_0;
   wire        clkfbout_Arty_Z7_10_clk_wiz_0_0;
   wire        clkfbout_buf_Arty_Z7_10_clk_wiz_0_0;
   wire        clkfboutb_unused;
+   wire clkout1_unused;
    wire clkout2_unused;
    wire clkout3_unused;
    wire clkout4_unused;
@@ -124,19 +124,16 @@ wire clk_in2_Arty_Z7_10_clk_wiz_0_0;
     .DIVCLK_DIVIDE        (1),
     .CLKFBOUT_MULT        (8),
     .CLKFBOUT_PHASE       (0.000),
-    .CLKOUT0_DIVIDE       (8),
+    .CLKOUT0_DIVIDE       (5),
     .CLKOUT0_PHASE        (0.000),
     .CLKOUT0_DUTY_CYCLE   (0.500),
-    .CLKOUT1_DIVIDE       (5),
-    .CLKOUT1_PHASE        (0.000),
-    .CLKOUT1_DUTY_CYCLE   (0.500),
     .CLKIN1_PERIOD        (8.000))
   plle2_adv_inst
     // Output clocks
    (
     .CLKFBOUT            (clkfbout_Arty_Z7_10_clk_wiz_0_0),
     .CLKOUT0             (clk_out1_Arty_Z7_10_clk_wiz_0_0),
-    .CLKOUT1             (clk_out2_Arty_Z7_10_clk_wiz_0_0),
+    .CLKOUT1             (clkout1_unused),
     .CLKOUT2             (clkout2_unused),
     .CLKOUT3             (clkout3_unused),
     .CLKOUT4             (clkout4_unused),
@@ -161,7 +158,6 @@ wire clk_in2_Arty_Z7_10_clk_wiz_0_0;
     .RST                 (reset_high));
   assign reset_high = ~resetn; 
 
-  assign locked = locked_int;
 // Clock Monitor clock assigning
 //--------------------------------------
  // Output buffering
@@ -173,14 +169,13 @@ wire clk_in2_Arty_Z7_10_clk_wiz_0_0;
 
 
 
+
+
+
   BUFG clkout1_buf
    (.O   (clk_out1),
     .I   (clk_out1_Arty_Z7_10_clk_wiz_0_0));
 
-
-  BUFG clkout2_buf
-   (.O   (clk_out2),
-    .I   (clk_out2_Arty_Z7_10_clk_wiz_0_0));
 
 
 
